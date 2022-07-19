@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="display">12</div>
+        <div class="numbers">
+            <button onclick="assignValue(1)">1</button>
+            <button onclick="assignValue(2)">2</button>
+            <button onclick="assignValue(3)">3</button>
+            <button onclick="assignValue(4)">4</button>
+            <button onclick="assignValue(5)">5</button>
+            <button onclick="assignValue(6)">6</button>
+            <button onclick="assignValue(7)">7</button>
+            <button onclick="assignValue(8)">8</button>
+            <button onclick="assignValue(9)">9</button>
+            <button onclick="assignValue(0)">0</button>
+        </div>
+        <div class="functions">
+            <button class="add" onclick='assignSign("+")'>+</button>
+            <button class="subtract" onclick='assignSign("-")'>-</button>
+            <button class="multiply" onclick='assignSign("*")'>*</button>
+            <button class="divide" onclick='assignSign("/")'>/</button>
+        <button class="equals" onclick="operate(sign,num1,num2)">=</button>
+        <button class="clear" onclick="cleanUP(num1,num2,sign,display)">clear</button>
+    </div>
+    </div>
+</body>
+<script src="scripts.js" defer></script>
+</html>

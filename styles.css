@@ -1,0 +1,18 @@
+.container{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.numbers{
+    background-color: red;
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 4;
+    }
+  .functions{
+    background-color: red;
+  }  
+  button{
+    color:pink;
+  }
